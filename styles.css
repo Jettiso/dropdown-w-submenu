@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: #1b1b1b;
+    width: 400px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+nav label {
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button .fa-caret-down {
+    float: right;
+    line-height: 35px;
+}
+
+nav ul {
+    position: absolute;
+    background: #1b1b1b;
+    list-style-type: none;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    display: block;
+}
+
+nav ul li {
+    line-height: 40px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav ul li label {
+    font-size: 1.2rem;
+}
+
+
+nav ul ul {
+    position: static;
+}
+
+nav ul ul li {
+    line-height: 30px;
+    padding-left: 30px;
+    border-bottom: none;
+}
+
+nav ul li span {
+    font-size: 1.4rem;
+    float: right;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+}
